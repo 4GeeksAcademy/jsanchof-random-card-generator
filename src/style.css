@@ -1,5 +1,21 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: green;
+}
+
+.card {
+    width: 200px; 
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.top-left, .bottom-right {
+    font-size: 32px;
+}
+.number {
+    font-size: 60px;
 }
